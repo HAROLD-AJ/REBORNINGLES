@@ -1,0 +1,103 @@
+* {
+	margin:0px;
+}
+
+#header {
+	margin:auto;
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:red;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#f59622;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+/*visionmisionvalore*/
+.menu {
+    display: flex;
+}
+
+.menu-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    top:75px; left: -785px;
+    margin-right:10px;
+}
+.menu-button2 {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    top:200px; left: -880px;
+    margin-right:10px;
+}
+.menu-button3{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    top:330px; left: -980px;
+    margin-right:10px;
+}
+
+.menu-button:last-child {
+    margin-right: 100 px;
+}
+
+/* Estilos CSS para las im�genes */
+.image-container {
+    text-align: rigth;
+}
+
+.image {
+    display: none;
+}
+
+.image.active {
+    display: inline ;
+}

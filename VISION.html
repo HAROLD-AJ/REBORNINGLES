@@ -1,0 +1,66 @@
+<html>
+	<head>
+<FONT COLOR = "#5e2129"><FONT FACE = "SEGOE PRINT"<FONT SIZE = "110"><CENTER>VISION AND MISSION</CENTER> </FONT>
+<BODY COLOR , BGCOLOR = "#fdfd96 ">
+<HR SIZE = "2PX" COLOR = "BLACK"/>
+</head>
+		<body>
+
+            </ul>
+		<div class="MENU" >
+		<div id="header">
+                    <ul class="nav">
+        
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./quiesomos.html">WHO WE ARE</a>
+                            <ul>
+                                    <li><a href="./proyecto.html">PROYECT</a>
+                                        <ul>
+                                        <li><a href="./PP.html">THESIS</a></ul>
+                                       <ul>
+                                            
+                                            <ul></ul>
+        
+                                       </ul>                 
+                                    </ul>		
+                                </li>
+                        <li><a href="">Acerca de</a>
+                            <ul>
+                                <li><a href="./ACTIVIDADES.html ">THE ACTIVITIES</a></li>
+                     
+                            </ul>
+                        </li>
+                    <li><a href="">Blaze</a></li>
+        
+                              </ul>
+		<div class="context">
+<link rel="stylesheet" href="VISION.css" type="text/css">
+<nav>
+        <body>
+    <div class="menu">
+        <button class="menu-button" onclick="showImage('VISION')">VISION</button>
+        <button class="menu-button2" onclick="showImage('MISION')">MISSION</button>
+        <button class="menu-button3" onclick="showImage('Vc')">VALUES</button>
+    </div>
+
+    <div class="menu1">
+        <img id="VISION" class="image" src="./VISION.jpg">
+</div>
+<div class="menu2 ">
+        <img id="MISION" class="image" src="./mision.jpg">
+        <img id="Vc" class="image" src="./VALORES.jpg">
+    </div>
+
+    <script>
+        function showImage(imageId) {
+            // Ocultar todas las im�genes
+            const images = document.querySelectorAll('.image');
+            images.forEach(image => image.classList.remove('active'));
+
+            // Mostrar la imagen seleccionada
+            const selectedImage = document.getElementById(imageId);
+            selectedImage.classList.add('active');
+        }
+    </script>
+    
+</body>
